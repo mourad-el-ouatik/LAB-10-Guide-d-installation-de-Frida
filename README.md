@@ -11,10 +11,10 @@
 
 | Paramètre | Valeur |
 |-----------|--------|
-| **Système hôte** | Ubuntu 24.04 LTS |
+| **Système hôte** | Windows 11 Pro |
 | **Android Studio** | Hedgehog 2023.1.1+ |
-| **AVD utilisé** | Pixel 6 – API 33 (Android 13) x86_64 |
-| **Version Android** | 13.0 (API Level 33) |
+| **AVD utilisé** | Pixel XL – API 29 (Android 13) x86_64 |
+| **Version Android** | 13.0 (API Level 29) |
 | **Application de test** | DIVA Android (Damn Insecure Vulnerable App) |
 | **Frida version** | 16.x |
 | **frida-tools** | 12.x |
