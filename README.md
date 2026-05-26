@@ -211,28 +211,5 @@ Exécution :
 | Rapport + traçabilité | ✅ | Ce document archivé |
 | Aucun compte personnel | ✅ | Confirmé |
 
-### 📸 Preuves – Commandes de reset
-
-```bash
-# Suppression des données applicatives
-$ adb shell pm clear com.target.app
-Success
-
-# Wipe AVD
-$ emulator -avd Pixel_6_API_33 -wipe-data
-INFO    | Cold boot: wipe
-INFO    | Successfully wiped userdata
-
-# Vérification post-wipe
-$ adb shell ls /data/data/com.target.app/
-ls: /data/data/com.target.app/: No such file or directory
-
-# Remise de SELinux en enforcing
-$ adb shell setenforce 1
-$ adb shell getenforce
-Enforcing
-```
-
----
 
 *© Mourad EL OUATIK – ENSA Marrakech 2025/2026*
